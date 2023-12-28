@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imges/Лого.svg" alt="">
+        </div>
+        
+        <div class="header-wrap">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Catalog.html">Каталог</a></li>
+                <li><a href="About-us.html">О нас</a></li>
+                <li><a href="About-us.html">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="basket-and-button">
+            <div class="basket">
+                <a href="#"><img src="imges/grommet-icons_basket.svg" alt="" ></a>
+            </div>
+           
+            <button>Войти</button>
+        </div>
+        
+    </header>
+
+    <div class="registratino_circles">
+        <div class="circle-purple-blur"></div>
+        <div class="circle-purple"></div>
+        <div class="circle-orange-blur"></div>
+        <div class="circle-orange"></div>
+
+        <div class="registratino">
+            <form action="" onsubmit="return false;">
+                <h1>Регистрация</h1>
+                <input type="text" class="text" placeholder="Имя" id="forename">
+                <input type="text" class="text" placeholder="Фамилия" id ="surname">
+                <input type="text" class="text" placeholder="Логин" id ="login">
+                <input type="text" class="text" placeholder="Пароль" id = "password">
+                <input type="text" class="text" placeholder="Пароль (повторно)" id="verifecationPassword">
+                <input type="email" class="text" placeholder="Email" id="EmailUser">
+                <div class="butt">
+                    <button id ="btnRegisration">Зарегистрироваться</button>
+                </div>
+                <div class="consent">
+                    <input type="checkbox" id="chxСonfirmation"> <label for="">Согласие с правилами регистрации</label>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+    <div class="rainbow-line"></div>
+    <footer>
+        <div class="menu">
+            
+            <h1>Меню</h1>
+            <div class="gray-line"></div>
+            <div class="href-contacts">
+                <div class="hrefs">
+                    <a href="#">О нас</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Товар</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="icons-email-number">
+                    <div class="icons">
+                        <a href="#"><img src="imges/healthicons_phone-negative.svg" alt=""></a>
+                        <a href="#"><img src="imges/icon1.svg" alt=""></a>
+                        <a href="#"><img src="imges/icon2.svg" alt=""></a>
+                    </div>
+                    <div class="email">
+                        <p>Email</p>
+                        <p class="p2">kaskamalpgka@gmail.com</p>
+                    </div>
+                    <div class="number">
+                        <p>Номер</p>
+                        <p class="p2">89824948325</p>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="imges/Карта 1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="src/registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Old Standard TT', serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: #340266;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrap{
+    width: 773px;
+    height: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: linear-gradient(180deg, #30F 0%, #BE0251 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrap ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.header-wrap li{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+
+.header-wrap a{
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    
+    border-radius: 20px;
+}
+
+.header-wrap a:hover{
+    background-color:rgb(245, 8, 245);
+    padding: 20px;
+}
+.logo{
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    transition: transform 1s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.basket-and-button{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.basket-and-button button{
+    border-radius: 50px;
+    background: linear-gradient(270deg, #7A2BE4 16.9%, #D528BD 48.27%, #7A2BE4 83.27%);
+    width: 168.948px;
+    height: 55px;
+    font-size: 24px;
+    border:none;
+}
+
+.basket-and-button button:hover{
+    background: linear-gradient(270deg, #D528BD 12.31%, #7A2BE4 45.88%, #D528BD 83.27%);
+}
+
+.basket-and-button .basket{
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: transform 1s;
+}
+
+.basket:hover{
+    transform: scale(1.2);
+}
+
+.registratino_circles{
+    height: 100%;
+}
+
+.registratino{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+    position: relative;
+}
+
+form{
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.63);
+    width: 750px;
+    height: 900px;
+    margin-right: 60px;
+    display: grid;
+    align-items:center;
+}
+
+form h1{
+    color: #FF03D7;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+form .text{
+    color: #FF03D7;
+    width: 509px;
+    border:none;
+    border-bottom: solid #FF03D7;
+    margin-left: 17%;
+    background-color:transparent;
+    font-size: 48px;
+    /* margin-top: 30px; */
+}
+
+form ::-webkit-input-placeholder {
+    color: #FF03D7;
+}
+
+form a{
+    color: #D2B7FF;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 32px;
+}
+form button{
+    width: 358px;
+    height: 95px;
+    color: #FFF;
+    font-size: 48px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #7A2BE4 16.9%, #D528BD 48.27%, #7A2BE4 83.27%);
+    border:none;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.consent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.circle-purple{
+    border-radius: 458.783px;
+    background: linear-gradient(180deg, #BD00FF 0%, #00E0FF 100%);
+    width: 457px;
+    height: 458.783px;
+    
+}
+
+.circle-purple-blur{
+    border-radius: 777.845px;
+    background: linear-gradient(180deg, #FF00C7 0%, #0038FF 100%);
+    filter: blur(50px);
+    width: 735px;
+    height: 777.845px;
+    
+}
+
+.circle-orange{
+    width: 476px;
+    height: 469.209px;
+    border-radius: 476px;
+    background: linear-gradient(180deg, #FFE500 0%, #FF005C 100%);
+}
+
+.circle-orange-blur{
+    border-radius: 758px;
+    background: linear-gradient(180deg, #FDE400 0%, #FF005C 100%);
+    filter: blur(50px);
+    width: 758px;
+    height: 735px;
+}
+.registratino {
+    position: relative;
+  }
+  
+  .circle-purple,
+  .circle-purple-blur,
+  .circle-orange,
+  .circle-orange-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .consent input {
+    /* Add your styles here */
+    /* For example: */
+    width: 20px;
+    height: 20px;
+    background-color: #FFD233;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .consent input [type="checkbox"] {
+    /* Add your styles here */
+    /* For example: */
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  /* You can also style the label associated with the checkbox */
+  .consent label {
+    /* Add your styles here */
+    /* For example: */
+    color: #FFB803;
+    margin-left: 10px;
+  }
+ 
+  footer{
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu{
+    width: 80%;
+  }
+
+  .href-contacts{
+    display: flex;
+  }
+
+  .menu h1{
+    text-align: left;
+    font-size: 48px;
+  }
+
+  .rainbow-line{
+    margin-top: 10%;
+    background: linear-gradient(90deg, #F31B76 14.29%, #0038FF 30.14%, rgba(30, 255, 147, 0.92) 55.32%, #3CFFD0 77.64%, #FAFF00 92.29%);
+    width: 100%;
+    height: 10px;
+  }
+
+  .gray-line{
+    width: 100%;
+    height: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color:#FFF;
+  }
+
+  .hrefs a{
+    display: block;
+    color: rgba(255, 255, 255, 0.58);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 32px;
+  }
+
+  .icons{
+    margin-left: 7%;
+    display: flex;
+  }
+
+  .email{
+    display: flex;
+    font-size: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+
+  .email p, .number p{
+    margin: 10px;
+  }
+
+  p.p2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 13px;
+  }
+
+  .number{
+    display: flex;
+    font-size: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+
+  .icons img{
+    margin: 10px;
+  }
+
+  .hrefs a:hover{
+    color:white;
+  }
+
+  .map{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+
+  .map img{
+    width: 311px;
+    height: 175px;
+  }
+
+  @media screen and (min-width: 1620px) {
+    .circle-purple{
+        transform: translate(300px,500px);
+    }
+    .circle-purple-blur{
+        transform: translate(300px,100px);
+    }
+
+    .circle-orange{
+        transform: translate(900px,150px);
+    }
+
+    .circle-orange-blur{
+        transform: translate(900px,800px);
+    }
+
+
+
+  }
+
+  @media screen and (min-width: 2000px){
+    .circle-purple{
+        transform: translate(500px,500px);
+    }
+    .circle-purple-blur{
+        transform: translate(500px,100px);
+    }
+
+    .circle-orange{
+        transform: translate(2000px,150px);
+    }
+
+    .circle-orange-blur{
+        transform: translate(2000px,800px);
+    }
+  }
